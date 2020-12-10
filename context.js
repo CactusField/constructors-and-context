@@ -18,7 +18,13 @@
 */
 
 //Code Here
-
+const user = {
+  username: "",
+  email: "",
+  getUsername: function(){
+    return this.username;
+  }
+}
 ////////// PROBLEM 2 //////////
 
 /*
@@ -38,7 +44,7 @@ function Animal(name, species, food) {
 }
 
 //Code Here
-
+const animal1 = new Animal ("Yoda", "dog", "peanuts")
 ////////// PROBLEM 3 //////////
 
 /*
@@ -56,7 +62,7 @@ let who = {
 }
 
 //Code Here
-
+let whoSaysHi = sayHi
 ////////// PROBLEM 4 //////////
 
 /*
